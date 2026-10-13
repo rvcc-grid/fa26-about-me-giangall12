@@ -1,0 +1,33 @@
+body {
+    font-family:Doppio One;
+    background-color: #FFD188;
+    color: #8BAFFE;
+
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Josefin Sans";
+    font-size: 40pt;
+
+}
+
+header{
+    text-align: center;
+}
+
+#info, footer {
+    color: #B9FFD8;
+    text-align: center;
+    background-color:#346653;
+    border: 2px solid #DBD10D;
+    padding:10px;
+}
+
+#bio {
+    text-align: center;
+}
+
+#info img {
+    width:400px;
+}
