@@ -8,8 +8,13 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Josefin Sans";
+    text-align:center ;
     font-size: 40pt;
 
+}
+
+h1 {
+    font-size: 40pt;
 }
 
 header{
@@ -30,4 +35,24 @@ header{
 
 #info img {
     width:400px;
+}
+
+#bio {
+    text-align:center;
+}
+
+#hobbies ul li:nth-child(even) {
+    color: black;
+}
+
+#gallery {
+    border:2px solid black
+}
+
+#gallery img {
+    max-width: 100%;
+}
+
+#gallery figure {
+    text-align:center;
 }
