@@ -13,9 +13,7 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-h1 {
-    font-size: 40pt;
-}
+
 
 header{
     text-align: center;
@@ -46,7 +44,8 @@ header{
 }
 
 #gallery {
-    border:2px solid black
+    border:2px solid black;
+    margin-bottom:2rem;
 }
 
 #gallery img {
@@ -55,4 +54,19 @@ header{
 
 #gallery figure {
     text-align:center;
+}
+
+#lit {
+    border: 2px solid black;
+    margin-bottom:2rem;
+}
+
+#lit div {
+    padding:2rem;
+    max-width: 40rem;
+    margin: 0 auto;
+}
+
+#lit div p {
+    padding: 0.3rem 0;
 }
