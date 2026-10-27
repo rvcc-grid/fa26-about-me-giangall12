@@ -81,6 +81,18 @@ section#hobbies {
     padding: 0.3rem 0;
 }
 
+
+/*Dropcaps*/
+
+.special::first-letter {
+    float: left;
+    font-size: 3rem;
+    line-height: .65;
+    padding:.5em;
+    color: #8BAFFE;
+    border: 2px solid #8BAFFE;
+}
+
 /*1st Media query*/
 
 @media screen and (min-width: 60em) {
