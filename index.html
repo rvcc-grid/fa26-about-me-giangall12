@@ -109,58 +109,47 @@
 </div>
 </article>
     <section id="contact">
-      <h2>Contact Us</h2>
+        <h2>Contact Us</h2>
 
         <form action="https://api.web3forms.com/submit" method="post">
             <input type="hidden" name="access_key" value="d27b58f7-ce2d-4a75-8a44-a97412d77b77">
             <input type="hidden" name="subject" value="New message from my About Me page">
-            <input type="hidden" name="redirect" value="https://github.com/rvcc-grid/fa26-about-me-giangall12/thanks.html">
-          <p>
-          <label for="name">Name</label>
-          <input type="text" name="name" required>
-          </p>
+            <input type="hidden" name="redirect" value="https://rvcc-grid.github.io/fa26-about-me-giangall12/thanks.html">
 
-          <p>
-          <label for="email">Email</label>
-          <input type="email" name="email" required>
-          </p>
+            <fieldset>
+                <legend>Contact Form</legend>
 
-          <p>
-            <label for="phone">Phone (optional)</label>
-            <input type="tel" name="phone" (optional)>
-          </p>
-          
-          <p>
-            <label for="phone-type">Phone type (optional)</label>
-            <select id="phone-type" name="phone-type">
-              <option value="">-- Select a type --</option>
-              <option value="mobile">Mobile</option>
-              <option value="home">Home</option>
-              <option value="work">Work</option>
-            </select>
-          </p>
-          
-          <p>   
-          <label for="message">Message</label><br>
-          <textarea name="message" required></textarea>
-          </p>
+                <p><label>Name <input type="text" name="name" required></label></p>
 
-          <p>
-            <ul>
-            <label for="followup">Would you like a followup?</label>
-            <input type="radio" name="followup" value="yes">
-            <label for="followup-yes">Yes</label>
-            <input type="radio" name="followup" value="no">
-            <label for="followup-no">No</label>
-            </ul>
-          </p>
+                <p><label>Email <input type="email" name="email" required></label></p>
 
-          <div data-class="h-captcha" data-captcha="true"></div>
-          
-          <button type="submit">Submit</button>
+                <p><label>Phone (optional) <input type="tel" name="phone"></label></p>
 
-    </form> 
-</section>
+                <p>
+                    <label>Phone type (optional)
+                        <select name="phone-type">
+                            <option value="">-- Select a type --</option>
+                            <option value="mobile">Mobile</option>
+                            <option value="home">Home</option>
+                            <option value="work">Work</option>
+                        </select>
+                    </label>
+                </p>
+
+                <p><label>Message <textarea name="message" rows="5" cols="40"></textarea></label></p>
+
+                <p>Would you like a followup?</p>
+                <ul>
+                    <li><label><input type="radio" name="followup" value="yes"> Yes</label></li>
+                    <li><label><input type="radio" name="followup" value="no"> No</label></li>
+                </ul>
+
+                <div data-class="h-captcha" data-captcha="true"></div>
+
+                <button type="submit">Submit</button>
+            </fieldset>
+        </form>
+    </section>
 </main>
     
 
@@ -175,3 +164,10 @@
 
 </body>
 </html>
+
+
+
+
+
+
+
