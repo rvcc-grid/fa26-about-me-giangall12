@@ -106,14 +106,63 @@
 
 <p>Alice opened the door and found that it led into a small passage, not much larger than a rat-hole: she knelt down and looked along the passage into the loveliest garden you ever saw. How she longed to get out of that dark hall, and wander about among those beds of bright flowers and those cool fountains, but she could not even get her head through the doorway.</p>
 
+</div>
+</article>
+    <section id="contact">
+      <h2>Contact Us</h2>
 
+        <form action="https://api.web3forms.com/submit" method="post">
+            <input type="hidden" name="access_key" value="d27b58f7-ce2d-4a75-8a44-a97412d77b77">
+            <input type="hidden" name="subject" value="New message from my About Me page">
+            <input type="hidden" name="redirect" value="https://github.com/rvcc-grid/fa26-about-me-giangall12/thanks.html">
+          <p>
+          <label for="name">Name</label>
+          <input type="text" name="name" required>
+          </p>
 
+          <p>
+          <label for="email">Email</label>
+          <input type="email" name="email" required>
+          </p>
 
-        </div>
-    </article>
+          <p>
+            <label for="phone">Phone (optional)</label>
+            <input type="tel" name="phone" (optional)>
+          </p>
+          
+          <p>
+            <label for="phone-type">Phone type (optional)</label>
+            <select id="phone-type" name="phone-type">
+              <option value="">-- Select a type --</option>
+              <option value="mobile">Mobile</option>
+              <option value="home">Home</option>
+              <option value="work">Work</option>
+            </select>
+          </p>
+          
+          <p>   
+          <label for="message">Message</label><br>
+          <textarea name="message" required></textarea>
+          </p>
 
-        </main>
-    </main>
+          <p>
+            <ul>
+            <label for="followup">Would you like a followup?</label>
+            <input type="radio" name="followup" value="yes">
+            <label for="followup-yes">Yes</label>
+            <input type="radio" name="followup" value="no">
+            <label for="followup-no">No</label>
+            </ul>
+          </p>
+
+          <div data-class="h-captcha" data-captcha="true"></div>
+          
+          <button type="submit">Submit</button>
+
+    </form> 
+</section>
+</main>
+    
 
     <footer>
 
@@ -121,6 +170,8 @@
 
     </footer>
 
+    
+<script src="https://web3forms.com/client/script.js" async defer></script>
 
 </body>
 </html>
